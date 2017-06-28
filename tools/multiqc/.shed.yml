@@ -7,6 +7,7 @@ owner: engineson
 long_description: |
   MultiQC searches a given directory for analysis logs and compiles a HTML report. 
   It's a general use tool, perfect for summarising the output from numerous bioinformatics tools.
+  IMPORTANT: FOR GALAXY TO DISPLAY MultiQC's HTML PROPERLY, YOU MUST WHITELIST THIS TOOL UNDER "Manage Display Whitelist" AFTER INSTALLING.
 homepage_url: http://multiqc.info/
 remote_repository_url: https://github.com/EnginesOn/galaxy_tools/tree/master/tools/multiqc
 type: unrestricted
